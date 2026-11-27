@@ -221,6 +221,30 @@ Every sales-roleplay / cold-call-practice repo found on 2026-11-27 (20+ results)
 
 ---
 
+## 12. Visitor identification & enrichment (commercial — added 2026-11-27, not GitHub)
+
+*Not open source and never will be: the value is the proprietary identity data, not the code. Logged because Nick asked; checked against vendor pages and independent comparisons on 2026-11-27.*
+
+### RB2B — visitor identification (person-level)
+- **What:** a pixel on the site that names individual visitors — name, LinkedIn, job title, business email on paid plans — pushed to Slack/CRM/webhooks.
+- **The catch for EXO:** person-level ID is **US-only** (RB2B's own FAQ; it geofences). UK/EU visitors resolve to **company level only** (via Demandbase). Nick's ICP is UK/EMEA, so for EXO this is a company-level tool wearing a person-level costume.
+- **Maths:** person-level match ~15–20% of *US* traffic on Starter/Pro, 35–45% on Pro+. Pricing: free tier (company-level only since Jan 2026), Starter $79/mo, Pro from $149/mo. Below roughly 5,000 B2B visits/month, identification isn't the constraint — traffic is.
+- **Legal:** naming individuals is the legally fraught end of UK/EU GDPR + ePrivacy; company-level sits on much firmer legitimate-interest ground.
+- **Brand:** covertly naming visitors, then auto-sequencing them, is the "faster, bigger" pattern EXO exists against — and it clashes with the portal's anti-surveillance positioning.
+- **Status:** `Parked` — revisit only if EXO gets meaningful US traffic.
+
+### Company-level identification (EU-suited alternatives)
+- **Leadfeeder (Dealfront)** — reverse-IP company ID, EU-built, has a free tier. **Albacross** — from €59/mo. **Snitcher** — from $49/mo.
+- **EXO use if ever:** "a target-account company visited the pricing/diagnostic page" as a *signal* for human follow-up — not an auto-sequence trigger.
+- **Status:** `Watch` — only worth it once site traffic is real; Umami first, to see the traffic honestly.
+
+### FullEnrich — waterfall enrichment (different job from RB2B)
+- **What:** takes people you *already* have (name + company, or LinkedIn URL) and cascades 20–25 data providers until it finds a verified work email or mobile. Claims ~84% EMEA email find rate; charged only on verified hits (email 1 credit, mobile 10). From $29/mo. Pushes to HubSpot; also has an official MCP server for AI agents.
+- **EXO use:** directly attacks a known EXO problem — the Apollo free-plan data ceiling (List 2 scoring capped at 65/100 on Apollo data alone). Waterfall enrichment of ICP lists could lift contact-data coverage beyond any single source, Apollo included.
+- **Status:** `Identified — genuinely interesting`. The one tool in this section that fits EXO's current stage and geography.
+
+---
+
 ## Priority shortlist (Toni's ranking, for Nick to confirm or reorder)
 
 1. **n8n** — automation glue; saves a solo operator hours weekly. Licence-flagged but usable.
