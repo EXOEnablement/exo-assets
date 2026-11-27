@@ -234,7 +234,7 @@ Every sales-roleplay / cold-call-practice repo found on 2026-11-27 (20+ results)
 - **Status:** `Parked` — revisit only if EXO gets meaningful US traffic.
 
 ### Company-level identification (EU-suited alternatives)
-- **Leadfeeder (Dealfront)** — reverse-IP company ID, EU-built, has a free tier. **Albacross** — from €59/mo. **Snitcher** — from $49/mo.
+- **Leadfeeder** — reverse-IP company ID, EU-built (data stored in the EU), free plan exists, paid from ~€79/mo. Naming saga: Leadfeeder merged with Echobot and rebranded as **Dealfront** in 2023, then flipped back to **Leadfeeder** on 24 Mar 2026 (legal entity still Dealfront Group GmbH); the visitor product is now called **Web Visitors**, with an Intent Score per visiting company. **Albacross** — from €59/mo. **Snitcher** — from $49/mo.
 - **EXO use if ever:** "a target-account company visited the pricing/diagnostic page" as a *signal* for human follow-up — not an auto-sequence trigger.
 - **Status:** `Watch` — only worth it once site traffic is real; Umami first, to see the traffic honestly.
 
